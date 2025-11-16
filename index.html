@@ -1,0 +1,638 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg bg-black py-4">
+      <div class="container">
+        <a class="navbar-brand" href="#hero-section">Sandeep Saw</a>
+        <button
+          class="navbar-toggler border-0 shadow-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse text-center"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0 gap-4">
+            <li class="nav-item">
+              <a
+                class="nav-link text-light active"
+                aria-current="page"
+                href="#hero-section"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-light active"
+                aria-current="page"
+                href="#about"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-light active"
+                aria-current="page"
+                href="#project-cards"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-light active"
+                aria-current="page"
+                href="#project-cards"
+                >Work</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-light active"
+                aria-current="page"
+                href="#blog"
+                >Blog</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-light active"
+                aria-current="page"
+                href="#contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <a
+            class="btn btn-primary"
+            href="https://www.linkedin.com/in/sandeep-saw-74402b28b/"
+            role="button"
+            >Let's Talk</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!--my section code -->
+    <main>
+      <section class="hero-section py-5" id="hero-section">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <p class="text-light mb-1 mini-heading">HELLO I'M</p>
+
+              <h1 class="text-light fw-bold head">
+                Web Designer & Frontend
+                <span class="text-green">Developer</span>
+              </h1>
+
+              <p class="text-light mt-3">
+                Hi, I’m Sandeep Saw — a Frontend Developer from India. I work
+                with React.js, Tailwind CSS, JavaScript, Framer Motion, and
+                React Native to build modern, fast, responsive, and
+                user-friendly web experiences.
+              </p>
+
+              <a href="#project-cards" class="btn btn-primary hero-btn mt-3">
+                EXPLORE PORTFOLIO
+              </a>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="img-container mx-auto"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about-section py-5">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 text-center order-last order-lg-first">
+              <img
+                src="/images/MyPho.png"
+                alt="About Me Image"
+                class="about-img img-fluid"
+              />
+            </div>
+            <div class="col-lg-6 text-light">
+              <p class="mini-heading">LET ME INTRODUCE MYSELF</p>
+              <h2 class="about-title">About Me</h2>
+
+              <h5 class="fw-semibold mb-3">A story of growth and passion</h5>
+
+              <p>
+                Hi, I’m <strong>Sandeep Saw</strong>, a Frontend Developer
+                passionate about creating fast, responsive, and visually
+                engaging web experiences using React.js, Tailwind CSS,
+                JavaScript, Framer Motion, and React Native.
+              </p>
+
+              <h5 class="fw-semibold mt-4">Contact</h5>
+              <p class="mb-1">
+                Feel free to reach out if you want to say hi or collaborate:
+              </p>
+
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=jisaw72@gmail.com"
+                target="_blank"
+                class="text-green email"
+              >
+                jisaw72@gmail.com
+              </a>
+
+              <br /><br />
+
+              <a href="https://www.linkedin.com/in/sandeep-saw-74402b28b/">
+                <button class="btn btn-primary mt-3">HIRE ME</button></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="tech-stack py-5">
+        <div class="container">
+          <h2 class="text-center mb-4 fw-bold" id="head">My Tech Stack</h2>
+         <p style="color: gray; margin-left: 15vw;">  A complete overview of all technologies I work with — including key
+            concepts & important topics.</p>
+          <div class="row g-4">
+            <div class="col-lg-6">
+              <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                  <h4 class="fw-bold">Frontend Development</h4>
+                  <ul class="tech-list mt-3">
+                    <li>
+                      <b class="front">HTML</b> – Semantic Tags, SEO, Forms,
+                      Media, Accessibility
+                    </li>
+                    <li>
+                      <b class="front">CSS</b> – Flexbox, Grid, Responsive
+                      Design, Animation, Variables
+                    </li>
+                    <li>
+                      <b class="front">JavaScript</b> – DOM, Events, Fetch API,
+                      Promises, ES6+
+                    </li>
+                    <li>
+                      <b class="front">Bootstrap</b> – Grid, Utilities,
+                      Components, Modals, Responsive UI
+                    </li>
+                    <li>
+                      <b class="front">Tailwind CSS</b> – Utility-first styling,
+                      Custom config, Responsive design
+                    </li>
+                    <li>
+                      <b class="front">React.js</b> – Components, Props, Hooks,
+                      Routing, API Calls, Forms
+                    </li>
+                    <li><b>Next.js</b> – Routing, SSR, SSG, API Routes, SEO</li>
+                    <li class="front">
+                      <b>Framer Motion</b> – Basic animations, Scroll
+                      animations, Variants
+                    </li>
+                    <li>
+                      <b class="front">React Native</b> – Components,
+                      Navigation, APIs (Basic Knowledge)
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                  <h4 class="fw-bold">Backend Development</h4>
+                  <ul class="tech-list mt-3">
+                    <li>
+                      <b class="front">Node.js</b> – Modules, npm, async, server
+                      basics
+                    </li>
+                    <li>
+                      <b class="front">Express.js</b> – Routing, Middleware,
+                      REST APIs, Auth Basics
+                    </li>
+                    <li>
+                      <b class="front">Java (Core)</b> – OOP, Classes, Exception
+                      Handling, Collections
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                  <h4 class="fw-bold">Database</h4>
+                  <ul class="tech-list mt-3">
+                    <li>
+                      <b class="front">MySQL</b> – Joins, Queries, Indexing,
+                      Relationships
+                    </li>
+                    <li>
+                      <b class="front">MongoDB</b> – Collections, Aggregation,
+                      Schemas, Atlas
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                  <h4 class="fw-bold">Tools & Platforms</h4>
+                  <ul class="tech-list mt-3">
+                    <li>
+                      <b class="front">Git & GitHub</b> – Branching, PR, Merge,
+                      Version Control
+                    </li>
+                    <li>
+                      <b class="front">Netlify</b> – Hosting, Build Deployment
+                    </li>
+                    <li>
+                      <b class="front">VS Code</b> – Extensions, Shortcuts,
+                      Debugging
+                    </li>
+                    <li><b class="front">Postman</b> – API testing</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services">
+        <div class="container text-center">
+          <p class="services-heading">WHAT I WILL DO FOR YOU</p>
+          <h2 class="services-title">Services</h2>
+          <div class="row g-4">
+            <div class="col-lg-4 col-md-6">
+              <div class="service-card">
+                <i class="ri-computer-line service-icon"></i>
+                <p class="projects-count">110 Projects</p>
+                <h5 class="card-title">Web Design</h5>
+                <p class="card-text">
+                  Offering tailored web design services to craft visually
+                  stunning, user-friendly websites that enhance your brand’s
+                  presence.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="service-card">
+                <i class="ri-pages-line service-icon"></i>
+                <p class="projects-count">150 Projects</p>
+                <h5 class="card-title">Front-End UI Implementation</h5>
+                <p class="card-text">
+                  Converting UI/UX designs into pixel-perfect front-end code
+                  with responsive layouts and smooth user interactions.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mx-auto">
+              <div class="service-card">
+                <i class="ri-file-code-line service-icon"></i>
+                <p class="projects-count">48 Projects</p>
+                <h5 class="card-title">Web Development</h5>
+                <p class="card-text">
+                  Offering expert web development services to create custom,
+                  scalable websites with seamless functionality and modern
+                  design.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="project-cards" id="project-cards">
+        <div class="container">
+          <p class="services-heading">SOME OF MY RECENT WORKS</p>
+          <h2 class="services-title">Portfolio</h2>
+
+          <div class="row">
+            <div class="col-lg-4 mb-4">
+              <div class="card" style="width: 22rem">
+                <img src="/images/gro.png" class="card-img-top" alt="Grocify" />
+                <div class="card-body">
+                  <h5 class="card-title">Grocify</h5>
+                  <p class="card-text">
+                    Building a responsive and user-friendly grocery website with
+                    smooth navigation and fast performance.
+                  </p>
+                  <a
+                    href="https://grocery-we.netlify.app/"
+                    class="btn btn-primary"
+                    >View Project</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+              <div class="card" style="width: 22rem">
+                <img
+                  src="/images/shop.png"
+                  class="card-img-top"
+                  alt="ShopEase"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">ShopWeb</h5>
+                  <p class="card-text">
+                    A modern shopping website with intuitive layouts and
+                    responsive design for better user engagement.
+                  </p>
+                  <a
+                    href="https://shoping-website-functinal.netlify.app/"
+                    class="btn btn-primary"
+                    >View Project</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+              <div class="card" style="width: 22rem">
+                <img
+                  src="/images/gal.png"
+                  class="card-img-top"
+                  alt="GallerySnap"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">GalleryWeb</h5>
+                  <p class="card-text">
+                    A clean and responsive gallery app with smooth image
+                    browsing and user-friendly navigation.
+                  </p>
+                  <a
+                    href="https://gallery-pho.netlify.app/"
+                    class="btn btn-primary"
+                    >View Project</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+              <div class="card" style="width: 22rem">
+                <img src="/images/no.png" class="card-img-top" alt="NoteMate" />
+                <div class="card-body">
+                  <h5 class="card-title">NoteWebApp</h5>
+                  <p class="card-text">
+                    A simple notes app with a clean UI, responsive design, and
+                    smooth functionality.
+                  </p>
+                  <a
+                    href="https://notes-app-projects.netlify.app/"
+                    class="btn btn-primary"
+                    >View Project</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+              <div class="card" style="width: 22rem">
+                <img
+                  src="/images/wo.png"
+                  class="card-img-top"
+                  alt="StyleAura"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">FashionClothe</h5>
+                  <p class="card-text">
+                    A stylish women's fashion website built with modern layouts
+                    and responsive pages.
+                  </p>
+                  <a
+                    href="https://women-fashionui.netlify.app/"
+                    class="btn btn-primary"
+                    >View Project</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+              <div class="card" style="width: 22rem">
+                <img src="/images/ve.png" class="card-img-top" alt="VedaSite" />
+                <div class="card-body">
+                  <h5 class="card-title">VedaDite</h5>
+                  <p class="card-text">
+                    A clean and responsive website designed for clarity, easy
+                    navigation, and smooth performance.
+                  </p>
+                  <a
+                    href="https://vedadite.netlify.app/"
+                    class="btn btn-primary"
+                    >View Project</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog-section" id="blog">
+        <div class="container">
+          <p class="services-heading">LATEST ARTICLES</p>
+          <h2 class="services-title">Blog</h2>
+          <div class="row gy-4">
+            <div class="col-lg-4 col-md-6">
+              <div class="card blog-card">
+                <img
+                  src="https://imgs.search.brave.com/YcpZBYLVIdVOgiA8MbMSleH9idY0LCvTKri6WHI98IA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bXVsdGlyZWNydWl0/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMi8wNS93ZWIt/ZGV2ZWxvcGVyLWRv/LnBuZw"
+                  class="card-img-top"
+                  alt="web developer"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    How to Become a Better Web Developer....
+                  </h5>
+                  <p class="card-text">
+                    Learn the essential roadmap, tools, and habits that help you
+                    grow faster as a web developer in 2025.
+                  </p>
+                  <a
+                    href="https://www.w3schools.com/where_to_start.asp"
+                    class="btn btn-primary"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card blog-card">
+                <img
+                  src="https://cdn.pixabay.com/photo/2020/11/09/06/33/website-5725734_1280.png"
+                  class="card-img-top"
+                  alt="UI/UX"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">UI/UX Tips to Improve Any Website</h5>
+                  <p class="card-text">
+                    Simple but powerful UI/UX techniques that instantly improve
+                    user experience and website performance.
+                  </p>
+                  <a
+                    href="https://www.figma.com/resource-library/ui-design-principles/"
+                    class="btn btn-primary"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card blog-card">
+                <img
+                  src="https://imgs.search.brave.com/3QDBSZ8n37y-K9VUCrTyBA_fdrDYlXAV6bXVUg8LMbo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c3luY2Z1c2lvbi5j/b20vYmxvZ3Mvd3At/Y29udGVudC91cGxv/YWRzLzIwMjQvMTEv/UmVhY3QtdnMuLU5l/eHQuanMtQ2hvb3Np/bmctdGhlLVJpZ2h0/LUZyYW1ld29yay5w/bmc"
+                  class="card-img-top"
+                  alt="React.js/Next js"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    React vs Next.js – What Should You Choose?
+                  </h5>
+                  <p class="card-text">
+                    A clear comparison between React and Next.js to help you
+                    pick the right framework for your next project.
+                  </p>
+                  <a
+                    href="https://www.geeksforgeeks.org/reactjs/nextjs-vs-reactjs-which-one-to-choose/"
+                    class="btn btn-primary"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="blog-section text-center">
+        <div class="container">
+          <p class="services-heading">GET IN TOUCH</p>
+          <h2 class="services-title">Contact</h2>
+
+          <form class="blog-card mx-auto contact-form">
+            <div class="mb-3">
+              <label class="form-label">Full Name</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter your name"
+                required
+              />
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Email Address</label>
+              <input
+                type="email"
+                class="form-control"
+                placeholder="your@email.com"
+                required
+              />
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Message</label>
+              <textarea
+                class="form-control"
+                rows="5"
+                placeholder="Write your message..."
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn contact-btn">Send Message</button>
+          </form>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 footer-about">
+              <h3 class="footer-logo">Sandeep Saw</h3>
+              <p class="footer-text">
+                Front-End Developer passionate about building modern, animated,
+                and user-friendly web experiences.
+              </p>
+            </div>
+
+            <div class="col-lg-2 col-md-6">
+              <h5 class="footer-title">Navigation</h5>
+              <ul class="footer-links">
+                <li><a href="#hero-section">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#project-cards">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <h5 class="footer-title">Contact</h5>
+              <ul class="footer-links">
+                <li>Email: jisaw72@gmail.com</li>
+                <li>Location: Bhopal, India</li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <h5 class="footer-title">Follow Me</h5>
+              <div class="footer-socials">
+                <a href="https://github.com/sandeep-saw1"
+                  ><i class="ri-github-fill"></i
+                ></a>
+                <a href="https://www.linkedin.com/in/sandeep-saw-74402b28b/"
+                  ><i class="ri-linkedin-box-fill"></i
+                ></a>
+                <a
+                  href="https://www.instagram.com/sandeep487970?igsh=MWVkZHVyOTF3YjF5Mg=="
+                  ><i class="ri-instagram-fill"></i
+                ></a>
+                <a href="https://www.youtube.com/@SandeepSaw_70"
+                  ><i class="ri-youtube-fill"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <hr class="footer-divider" />
+
+          <p class="footer-credit">© 2025 Sandeep | All Rights Reserved</p>
+        </div>
+      </footer>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+      integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
